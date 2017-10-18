@@ -23,6 +23,9 @@ class CacheToken {
         $this->cache = new Cache($storage, $name);        
     }
     
+	/*
+	* When $isDebug is TRUE, on every request we generate new timestamp token
+	*/
     public function getTimeStamp($isDebug = FALSE) {
         
        $timestamp = $this->cache->load($this->name);
