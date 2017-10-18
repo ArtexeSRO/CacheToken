@@ -1,6 +1,6 @@
 <?php
 
-namespace Artexe;
+namespace Artexe\CacheToken;
 
 use Nette\Caching\Cache,
     Nette\Utils\DateTime,
